@@ -80,5 +80,3 @@ This project has a strong foundation that can be extended with more advanced fea
 **Umed Kumar**
 
 - [GitHub Profile](https://github.com/UmedKumar)
-
-```
