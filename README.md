@@ -19,14 +19,14 @@ The system detects and tracks individuals, counts entries and exits, identifies 
 
 ## ✨ Key Features
 
-- **👥 Real-time Person Tracking & Counting:** Uses YOLOv8 to accurately detect and track multiple people, maintaining a real-time count of individuals entering and exiting the frame.
-- **🙂 Face Recognition:** Distinguishes between known and unknown individuals using DeepFace. New, unidentified faces are automatically saved for future recognition.
-- **🧐 Suspicious Behavior Detection:**
+- ** Real-time Person Tracking & Counting:** Uses YOLOv8 to accurately detect and track multiple people, maintaining a real-time count of individuals entering and exiting the frame.
+- ** Face Recognition:** Distinguishes between known and unknown individuals using DeepFace. New, unidentified faces are automatically saved for future recognition.
+- ** Suspicious Behavior Detection:**
   - **Sneaking Alert:** Identifies individuals who are crouching (low bounding box aspect ratio) and moving slowly.
   - **Loitering Alert:** Flags individuals who remain stationary in a specific area for an extended period.
-- **🚨 Automated Alert System:** Triggers a distinct audio alarm when an **unidentified** person exhibits suspicious behavior, ensuring immediate attention to potential threats.
-- **📸 Smart Image Capture:** Automatically saves a snapshot of any unidentified person who triggers an alert to the `alert_captures/` directory for evidence and review.
-- **🖥️ Interactive Dashboard:** Provides a full-screen, annotated video feed displaying bounding boxes, person IDs, face IDs, alert statuses, and IN/OUT counters.
+- ** Automated Alert System:** Triggers a distinct audio alarm when an **unidentified** person exhibits suspicious behavior, ensuring immediate attention to potential threats.
+- ** Smart Image Capture:** Automatically saves a snapshot of any unidentified person who triggers an alert to the `alert_captures/` directory for evidence and review.
+- ** Interactive Dashboard:** Provides a full-screen, annotated video feed displaying bounding boxes, person IDs, face IDs, alert statuses, and IN/OUT counters.
 
 ---
 
@@ -49,7 +49,7 @@ The system operates through a sequential pipeline for each frame of the video fe
 
 ---
 
-## Project Structure
+## 🔧 Project Structure
 
 Smart_Crowd_Monitoring_System/
 │
@@ -72,7 +72,7 @@ This project has a strong foundation that can be extended with more advanced fea
 
 ---
 
-## Author
+## 👨‍💻 Author
 
 **Umed Kumar**
 
