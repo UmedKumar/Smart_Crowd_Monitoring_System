@@ -7,7 +7,7 @@ The system detects and tracks individuals, counts entries and exits, identifies 
 ***
 ***
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Key Features](#-key-features)
 - [How It Works](#-how-it-works)
@@ -17,7 +17,7 @@ The system detects and tracks individuals, counts entries and exits, identifies 
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - **Real-time Person Tracking & Counting:** Uses YOLOv8 to accurately detect and track multiple people, maintaining a real-time count of individuals entering and exiting the frame.
 - **Face Recognition:** Distinguishes between known and unknown individuals using DeepFace. New, unidentified faces are automatically saved for future recognition.
@@ -30,7 +30,7 @@ The system detects and tracks individuals, counts entries and exits, identifies 
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 The system operates through a sequential pipeline for each frame of the video feed:
 
@@ -49,16 +49,16 @@ The system operates through a sequential pipeline for each frame of the video fe
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 
 Smart\_Crowd\_Monitoring\_System/
-├── known\_faces/            \# Stores face images of known individuals (e.g., 'Umed.jpg').
-├── alert\_captures/         \# Automatically saves snapshots of unidentified alert subjects.
-├── main.py                 \# The main script to run the application.
-├── requirements.txt        \# A list of all necessary Python dependencies.
-└── README.md               \# You are here\!
+├── known\_faces/           \ Stores face images of known individuals (e.g., 'sample.jpg').
+├── alert\_captures/        \ Automatically saves snapshots of unidentified alert subjects.
+├── main.py                 \ The main script to run the application.
+├── requirements.txt        \ A list of all necessary Python dependencies.
+└── README.md               \ You are here\!
 
 ```
 
@@ -75,11 +75,10 @@ This project has a strong foundation that can be extended with more advanced fea
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Umed Kumar**
 
 - [GitHub Profile](https://github.com/UmedKumar)
-- [LinkedIn Profile](https://www.linkedin.com/in/umed-kumar-a41753229/)
 
 ```
